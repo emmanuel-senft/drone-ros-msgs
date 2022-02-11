@@ -9,6 +9,7 @@ add_message_files(
   FILES
   Planes.msg
   PlanesInliers.msg
+  PlanesInliersArr.msg
 )
 generate_messages(
   DEPENDENCIES
