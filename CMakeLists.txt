@@ -8,6 +8,7 @@ find_package(catkin REQUIRED COMPONENTS roscpp tf2_ros geometry_msgs sensor_msgs
 add_message_files(
   FILES
   Planes.msg
+  PlanesInliers.msg
 )
 generate_messages(
   DEPENDENCIES
