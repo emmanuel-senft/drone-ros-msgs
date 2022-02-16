@@ -10,6 +10,7 @@ add_message_files(
   Planes.msg
   PlanesInliers.msg
   PlanesInliersArr.msg
+  PoseCost.msg
 )
 generate_messages(
   DEPENDENCIES
